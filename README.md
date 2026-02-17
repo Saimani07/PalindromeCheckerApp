@@ -1,12 +1,12 @@
 # PalindromeCheckerApp
-
-* Displays whether a predefined (hardcoded) string is a palindrome
-* No user input is required
-* Program starts execution from the `main()` method
-* A fixed string literal (e.g., "madam") is stored in a variable
-* The string is checked against its reverse
-* Uses an `if-else` conditional statement for validation
-* Prints the result to the console using `System.out.println()`
-* Program terminates after displaying the output
-* Demonstrates basic Java concepts: class, main method, String, conditionals
-* Useful for understanding palindrome logic with simple implementation
+A palindrome is a sequence of number which has the same numbers on the ends
+* Checks whether a word, phrase, or number reads the same forward and backward.
+* Ignores spaces, punctuation, and capitalization (optional feature).
+* Simple and user-friendly interface.
+* Provides instant results (Palindrome / Not Palindrome).
+* Can support both text and numeric inputs.
+* Useful for learning string manipulation concepts.
+* May include real-time checking as the user types.
+* Lightweight and fast performance.
+* Can be built as a web, mobile, or desktop application.
+* Great beginner project for practicing programming logic.
