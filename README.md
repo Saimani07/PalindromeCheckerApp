@@ -1,19 +1,19 @@
-This program checks whether a given string is a palindrome while ignoring spaces and case differences.
+This program checks whether a string is a palindrome using the Strategy Design Pattern.
 
-A palindrome is a string that reads the same forward and backward.
+A common interface PalindromeStrategy defines the algorithm contract.
 
-The input string is first preprocessed to remove all spaces.
+Multiple strategies implement different palindrome algorithms.
 
-All characters are converted to lowercase for uniform comparison.
+StackStrategy checks palindrome using a stack.
 
-This ensures that uppercase and lowercase letters are treated equally.
+DequeStrategy checks palindrome using a deque.
 
-The program compares characters from the beginning and end of the string.
+The algorithm can be selected dynamically at runtime.
 
-The comparison continues towards the center of the string.
+The PalindromeService class acts as the context.
 
-If all corresponding characters match, the string is a palindrome.
+This approach uses polymorphism to switch behaviors easily.
 
-If any mismatch occurs, the string is not a palindrome.
+It promotes code flexibility and reusability.
 
-This program demonstrates string preprocessing and efficient palindrome checking.
+The program demonstrates advanced object-oriented design using the Strategy Pattern.
