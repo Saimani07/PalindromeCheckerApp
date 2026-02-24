@@ -1,19 +1,19 @@
-This program checks whether a given string is a palindrome using recursion.
+This program checks whether a given string is a palindrome while ignoring spaces and case differences.
 
 A palindrome is a string that reads the same forward and backward.
 
-Recursion is a technique where a function calls itself to solve smaller subproblems.
+The input string is first preprocessed to remove all spaces.
 
-The program compares the first and last characters of the string.
+All characters are converted to lowercase for uniform comparison.
 
-If the characters match, the function calls itself for the remaining substring.
+This ensures that uppercase and lowercase letters are treated equally.
 
-If any pair of characters does not match, the string is not a palindrome.
+The program compares characters from the beginning and end of the string.
 
-The base condition stops recursion when the start index becomes greater than or equal to the end index.
+The comparison continues towards the center of the string.
 
-The recursive calls are managed using the call stack in memory.
+If all corresponding characters match, the string is a palindrome.
 
-Non-alphanumeric characters can be removed to ensure accurate comparison.
+If any mismatch occurs, the string is not a palindrome.
 
-This program demonstrates recursive problem solving and efficient string processing.
+This program demonstrates string preprocessing and efficient palindrome checking.
