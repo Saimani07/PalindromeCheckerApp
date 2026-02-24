@@ -14,7 +14,7 @@
  */
 import java.util.*;
 
-public class Usease6PalindromeCheckerApp {
+public class Usecase6PalindromeCheckerApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
