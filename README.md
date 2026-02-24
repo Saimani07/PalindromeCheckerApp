@@ -1,19 +1,19 @@
-This program checks whether a given string is a palindrome using a singly linked list.
+This program checks whether a given string is a palindrome using recursion.
 
 A palindrome is a string that reads the same forward and backward.
 
-The input string is converted into a linked list where each character is stored as a node.
+Recursion is a technique where a function calls itself to solve smaller subproblems.
 
-The program uses the fast and slow pointer technique to find the middle of the linked list.
+The program compares the first and last characters of the string.
 
-After finding the middle, the second half of the list is reversed in place.
+If the characters match, the function calls itself for the remaining substring.
 
-The first half and the reversed second half are compared node by node.
+If any pair of characters does not match, the string is not a palindrome.
 
-If all corresponding nodes match, the string is a palindrome.
+The base condition stops recursion when the start index becomes greater than or equal to the end index.
 
-If any mismatch occurs, the string is not a palindrome.
+The recursive calls are managed using the call stack in memory.
 
-This approach uses no extra memory for reversal, making it efficient.
+Non-alphanumeric characters can be removed to ensure accurate comparison.
 
-The program demonstrates linked list traversal, in-place reversal, and efficient problem solving.
+This program demonstrates recursive problem solving and efficient string processing.
