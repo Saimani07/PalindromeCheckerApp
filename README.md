@@ -12,7 +12,7 @@ Design Patterns: Refactored into an OOP Service (UC11) and implemented the Strat
 
 Performance: Benchmarked all methods using System.nanoTime() to find the most efficient solution (UC13).
 
-Technical Summary Author: vamsikoneru06
+Technical Summary Author: SaiMani07
 
 Core Concepts: LIFO/FIFO, Recursion, Regex, Two-Pointer Technique, Strategy Design Pattern.
 
