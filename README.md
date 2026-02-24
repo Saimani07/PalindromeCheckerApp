@@ -1,19 +1,19 @@
-This program checks whether a string is a palindrome using the Strategy Design Pattern.
+This program compares the performance of different palindrome checking methods.
 
-A common interface PalindromeStrategy defines the algorithm contract.
+It demonstrates how multiple algorithms can solve the same problem.
 
-Multiple strategies implement different palindrome algorithms.
+The input string is normalized by removing spaces and converting to lowercase.
 
-StackStrategy checks palindrome using a stack.
+The first method checks palindrome using string reversal.
 
-DequeStrategy checks palindrome using a deque.
+The second method checks palindrome using a stack.
 
-The algorithm can be selected dynamically at runtime.
+Execution time for each method is measured using System.nanoTime().
 
-The PalindromeService class acts as the context.
+The start and end times are recorded for accurate comparison.
 
-This approach uses polymorphism to switch behaviors easily.
+The program displays whether the string is a palindrome for each method.
 
-It promotes code flexibility and reusability.
+It also prints the execution time taken by each algorithm.
 
-The program demonstrates advanced object-oriented design using the Strategy Pattern.
+This program helps in understanding algorithm efficiency and performance analysis.
