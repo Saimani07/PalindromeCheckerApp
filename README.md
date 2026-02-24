@@ -1,21 +1,19 @@
-UC6: Queue + Stack Based Palindrome Checker App — README (10 Points)
+This program checks whether a given string is a palindrome using a Deque data structure.
 
-The program checks whether a given string is a palindrome using Queue and Stack data structures.
+A palindrome is a string that reads the same forward and backward.
 
-A palindrome is a word or sequence that reads the same forward and backward (e.g., madam, racecar).
+A Deque (Double Ended Queue) allows insertion and deletion from both front and rear ends.
 
-The application demonstrates the difference between FIFO (Queue) and LIFO (Stack) principles.
+Each character of the input string is inserted into the deque.
 
-A Queue follows First In First Out, where the first inserted element is removed first.
+The program removes characters simultaneously from the front and rear.
 
-A Stack follows Last In First Out, where the last inserted element is removed first.
+The removed characters are compared to verify palindrome property.
 
-Each character of the input string is inserted into both the queue and the stack.
+If all corresponding characters match, the string is a palindrome.
 
-Characters are removed simultaneously using dequeue (queue) and pop (stack) operations.
+If any pair of characters does not match, the string is not a palindrome.
 
-The removed characters are compared one by one to verify palindrome logic.
+This approach is optimized because it uses a single data structure instead of stack and queue.
 
-If all corresponding characters match, the string is declared a palindrome; otherwise, it is not.
-
-This program helps in understanding stacks, queues, and their real-world application in problem solving.
+The program demonstrates efficient use of deque for real-world problem solving.
